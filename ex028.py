@@ -8,4 +8,3 @@ if chute == numero:
     print('Parabéns! Você acertou!')
 else:
     print('Que pena! Você errou. O número era {}.'.format(numero))
-

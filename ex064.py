@@ -1,4 +1,4 @@
-#Ler n números somando-os e contando-os usando WHILE
+#Ler n números somando-os e contando-os usando WHILE sem break
 num = cont = soma = 0
 while num != 999:
     num = int(input('Digite um número inteiro (999 encerra o programa): '))

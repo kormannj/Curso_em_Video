@@ -6,9 +6,14 @@ print('VAMOS JOGAR PAR OU ÍMPAR')
 print('=-' * 12)
 jogador_venceu = True
 qt_vitorias = 0
+
 while jogador_venceu:
     num_jogador = int(input('Digite um valor: '))
-    escolha = input('Par ou ímpar (P/I)? ').strip().upper()[0]
+    while True:
+        escolha = input('Par ou ímpar (P/I)? ').strip().upper()[0]
+        if escolha in 'PI':
+            break
+
     num_computador = randint(0, 10)
     soma = num_jogador + num_computador
     soma_eh_par = True if soma % 2 == 0 else False

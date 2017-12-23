@@ -14,7 +14,7 @@ while jogador_venceu:
         if escolha in 'PI':
             break
 
-    num_computador = randint(0, 10)
+    num_computador = randint(0, 11)
     soma = num_jogador + num_computador
     soma_eh_par = True if soma % 2 == 0 else False
 

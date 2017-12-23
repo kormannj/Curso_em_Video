@@ -11,13 +11,4 @@ while cont <= 10:
     pa += razao
     cont += 1
     print(pa, end=' ')
-
-print('\n')
-#Maneira 2
-pa = prim_termo
-decimo_termo = prim_termo + (10 - 1) * razao
-
-print('Os dez primeiros termos da PA são: ', end='')
-while pa != (decimo_termo + razao):
-    print(pa, end=' ')
-    pa += razao
+    
